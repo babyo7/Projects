@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans serif;
+}
+body{
+    background-color: cornsilk;
+}
+.header {
+
+    border: 1px solid;
+    border-radius: 50px;
+
+    padding-left: 10px;
+
+    width: 700px;
+
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    background: rgba(255, 255, 255, 0.47);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+
+.card{
+    border-radius: 30px;
+   
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+
+}
+.project{
+    border-radius: 30px;
+    border: 1px solid;
+   height: 400px;
+   width: 300px;
+   margin-right: 10px;
+   margin-left: 10px;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.47);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+ 
+}
+
+h2{
+    font-size: 27px;
+    padding-top: 270px;
+   margin-bottom: 4px;
+    padding-left: 17px;
+}
+span{
+  font-size: 13px;
+  border: 1px solid;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-right: -3px;
+   font-weight: 500;
+}
+.tag{
+    margin-left: 7px;
+}
+.image{
+   height: 300px;
+   width: 270px;
+   margin: 10px;
+   margin-left: 14px;
+   border: 1px solid rgba(0, 0, 0, 0.436);
+   border-radius: 30px;
+   margin-bottom: -290px;
+   background-position: center;
+   background-size: contain;
+   background-image: url(p.png);
+
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 17px;
+    }
+
+    .header {
+
+       
+        border-radius: 50px;
+        padding-left: 10px;
+        width: 300px;
+        text-align: center;
+        position: absolute;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .card{
+        margin-top: 270px;
+        display: inline-block;
+    }
+    .project{
+        margin-top: 30px;
+    }
+    h2{
+        padding-top: 270px;
+       margin-bottom: 3px;
+        padding-left: 13px;
+    }
+    span{
+      font-size: 13px;
+      border: 1px solid;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-radius: 50px;
+      margin-left: 10px;
+      margin-right: -5px;
+       font-weight: 500;
+    }
+}
