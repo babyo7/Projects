@@ -147,6 +147,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
  }
 
  footer img{
@@ -157,7 +158,7 @@ p{
     position: relative;
     padding-left: 10px;
     transition: .5s;
-    margin-top: 30px;
+   
  }
 
  img:hover {     
