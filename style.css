@@ -183,7 +183,7 @@ p{
  }
 
 
- .header img:active{
+ .header img:hover{
 
     rotate: 1000deg; 
 }
