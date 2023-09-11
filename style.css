@@ -87,6 +87,7 @@ p{
 }
 
 .icon{
+    cursor: pointer;
   height: 30px;
   width: 30px;
   margin-left: 250px;
