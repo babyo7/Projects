@@ -172,21 +172,3 @@ p{
  }
 
 
- .header img{
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    margin-top: -10px;
-    margin-bottom: -13px;
-    transition:.3s ease-in-out;
-    border:2px solid white;
-    display: none;
- }
-
-
- .header img:hover{
-
-    rotate: 3turn; 
-}
- 
