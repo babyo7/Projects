@@ -139,3 +139,32 @@ p{
     background-color: white;
     color: black;
  }
+
+ footer{
+ 
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ footer img{
+    cursor: pointer;
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    position: relative;
+    padding-left: 10px;
+    transition: .5s;
+ }
+
+ img:hover {     
+  
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);    
+    
+ }
