@@ -55,7 +55,7 @@ h1 {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
-    border-color:black;
+   
 }
 
 
@@ -71,6 +71,7 @@ h1 {
     background-image: url(p.png);
     background-position: center;
     background-size: contain;
+    border-color:black;
 }
 
 h2 {
