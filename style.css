@@ -17,9 +17,8 @@ body {
  
     text-align: center;
     position: fixed;
-    top: 4%;
+    top: 5%;
     left: 50%;
-    padding-top: 30px;
     transform: translate(-50%, -50%);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
