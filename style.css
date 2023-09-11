@@ -108,3 +108,24 @@ p{
     margin-top: 40px;
     margin-bottom: 30px;
  }
+
+ .icon:hover {     
+    transition-duration: .7s; 
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);    
+    
+ }
+ p:hover {     
+    transition-duration: .7s; 
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);   
+    cursor: pointer; 
+    border-color: red;
+    
+ }
