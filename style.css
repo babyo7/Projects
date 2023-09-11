@@ -7,7 +7,6 @@
 
 body {
     background-color: black;
-    scrollbar-width: none;
 }
 
 .header {
@@ -173,4 +172,11 @@ footer img:hover {
     -o-transform: scale(1.2);
     transform: scale(1.2);
 
+}
+
+@media (max-width:800px) {
+    .card{
+    margin-top: 10vh;
+    }
+    
 }
