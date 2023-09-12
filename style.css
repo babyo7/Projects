@@ -160,9 +160,9 @@ footer img {
     filter: invert(100%);
     width: 30px;
     height: 30px;
-    padding:0px;
-padding-right:17px;
-    margin:0px;
+    
+padding-left:17px;
+
     transition: .5s;
 
 }
